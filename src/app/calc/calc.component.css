@@ -1,0 +1,114 @@
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.col-md-6,
+.col-md-12 {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.site-content h2 {
+  padding: 20px 0 25px 0;
+  margin: 0;
+  color: #00b4bd;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+label {
+  cursor: default;
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+.form-group > input {
+  border: solid 1px #007c8a;
+}
+
+.form-group {
+  margin-top: 15px;
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+  box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+  -webkit-transition: border-color ease-in-out 0.15s,
+    -webkit-box-shadow ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+.control-label {
+  color: #007c8a;
+}
+
+.content-button.-secondary {
+  background-color: #00b4bd;
+  border-bottom: 2px solid #009097;
+  border: none;
+  -webkit-box-shadow: -3px 7px 13px 0 rgb(0 180 189 / 20%);
+  box-shadow: -3px 7px 13px 0 rgb(0 180 189 / 20%);
+}
+
+.content-button {
+  padding: 11px 13px;
+  height: 46px;
+  color: #fff !important;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #007c8a;
+  border: none;
+  border-bottom: 2px solid #00636e;
+  display: inline-block;
+  -webkit-transition: 0.2s all ease-out;
+  transition: 0.2s all ease-out;
+  -webkit-animation: 0.4s fadeIn ease-out;
+  animation: 0.4s fadeIn ease-out;
+  margin-top: 5%;
+  cursor: pointer;
+}
+
+.content-button.-secondary:hover {
+  background-color: rgb(44, 116, 121);
+  outline: 0;
+}
